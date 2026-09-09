@@ -3,6 +3,7 @@
 /node_modules
 /build
 /tmp
+/coverage
 
 # Logs
 logs
@@ -18,6 +19,12 @@ lerna-debug.log*
 .env.development
 .env.test
 .env.production
+!.env.example
+
+# IDE and OS
+.vscode
+.idea
+.DS_Store
 
 # temp directory
 .temp
